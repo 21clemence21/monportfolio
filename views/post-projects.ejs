@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form method="POST" action="/admin/post-projects">
+            <div class="titre-projet">
+                <label for="titre">Le titre de votre projet</label>
+                <input type="text" name="titre" id="titre">
+            </div>
+
+            <div class="auteur">
+                <label for="auteur">L'auteur du projet</label>
+                <input type="text" name="auteur" id="auteur">
+            </div>
+
+            <div class="description">
+                <label for="description">La description de votre projet</label>
+                <input type="text" name="description" id="description">
+            </div>
+            
+            <div class="site">
+                <label for="site">Site internet du projet</label>
+                <input type="text" name="site" id="site">
+            </div>
+
+            <div class="submit">
+                <input type="submit" value="post">
+            </div>     
+    </form>    
+</body>
+</html>

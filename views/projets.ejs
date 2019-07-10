@@ -1,4 +1,13 @@
+
+<h4>Mes projets </h4>
 <% for(var i=0; i < projets.length; i++) {%>
     <li><%= projets[i].titre %></li>
- <% } %> ;
+ <% } %> 
 
+<h4>La description de mes projets</h4>
+<% for(var i=0; i < projets.length; i++) {%>
+
+ <div class="liste-description">
+    <li><%= projets[i].description %></li>
+ </div>   
+<% } %>

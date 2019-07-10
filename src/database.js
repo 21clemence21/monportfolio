@@ -1,6 +1,6 @@
 let mongoose = require('mongoose');
 const express = require('express'); 
-//var project = require('./src/models/projects');
+var project = require('./models/project');
 
 const server = '127.0.0.1:27017'; // REPLACE WITH YOUR DB SERVER
 const database = 'portfolio';      // REPLACE WITH YOUR DB NAME
@@ -28,7 +28,4 @@ _connect() {
 }
 
 module.exports = Database;
-
-
-
 
